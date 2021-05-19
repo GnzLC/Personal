@@ -1,0 +1,26 @@
+.form-content{
+    width: 33%;
+    height: 50%;
+    background: #fff;
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'KoHo', sans-serif;
+    border:1px solid black;
+    margin: 20% 33%;
+}
+
+.form-content a{
+    color: rgba(78, 76, 76, 0.89);
+}
+
+.form-content h2{
+    color: black;
+}
+
+.form-iniciar{
+    margin: 50px 20px 50px 20px;
+}

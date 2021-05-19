@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/form-back.jpg);
+    background-size: cover;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Rock Salt', cursive;
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+}
+
+li, a {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 500;
+    font-size: 16 px;
+    color:#fff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    align-items: center;
+    background: rgba(0,0,0,0.8);
+}
+
+header a{
+    transition: color 0.3 ease ;
+}
+header a:hover{
+    color: orangered;
+}
+.logo{
+    cursor: pointer;
+    background: rgba(0,0,0,0.8);
+}
+
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 80px;
+}
+
+footer{
+    background: rgba(0,0,0,0.8);
+    position:relative;
+    height: 25%;
+    width: 100vw;
+    font-family: 'KoHo', sans-serif;
+    padding-top: 40 px ;
+    color: #fff;
+
+}
+.footer-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 48px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.footer-content p{
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i {
+    font-size: 1.1rem;
+    transition: color 0.3 ease ;
+}
+
+.socials a:hover i{
+    color: orangered;
+}
+
+.footer-bottom{
+    background:rgba(0,0,0,0.8);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4 ;
+    font-weight: 200;
+}
+
+.contenido{
+    height: 60%;
+    background: blanchedalmond;
+    width: 100%;
+    margin:50%;
+}
